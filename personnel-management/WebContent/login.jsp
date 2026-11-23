@@ -14,14 +14,12 @@
             font-family: "Segoe UI", Arial, sans-serif;
         }
 
-        /* 全屏背景图 */
         body {
             height: 100vh;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url("images/bj2.jpg");
-            
+            background-image: url("${pageContext.request.contextPath}/images/bj0.jpg");
         }
 
         /* 登录框 */

@@ -15,6 +15,7 @@ public class AuthFilter implements Filter {
 
         // 静态资源、登录、注册、webapp 根允许访问
         if (uri.startsWith(ctx + "/resources/") ||
+            uri.startsWith(ctx + "/images/") ||
             uri.endsWith("login.jsp") ||
             uri.endsWith("register.jsp") ||
             uri.endsWith("mynote7.xml") ||
