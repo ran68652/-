@@ -177,13 +177,7 @@ personnel
 - MySQL
 - Java Web 开发环境
 
-### 2. 获取项目
-
-```bash
-git clone https://github.com/你的GitHub用户名/Java-Web-HR-Management-System.git
-```
-
-### 3. 配置数据库
+### 2. 配置数据库
 
 1. 启动 MySQL 服务。
 2. 创建数据库 `personnel`。
@@ -191,14 +185,14 @@ git clone https://github.com/你的GitHub用户名/Java-Web-HR-Management-System
 4. 检查 `JDBCUtil.java` 中的数据库连接地址、用户名和密码。
 5. 根据本地 MySQL 环境修改数据库连接配置。
 
-### 4. 配置 Tomcat
+### 3. 配置 Tomcat
 
 1. 配置 JDK 21。
 2. 配置 Apache Tomcat 9。
 3. 将项目的 `WebContent` 目录部署到 Tomcat。
 4. 确认项目 Context Path 配置正确。
 
-### 5. 启动项目
+### 4. 启动项目
 
 启动 Tomcat 服务，在浏览器中访问：
 
