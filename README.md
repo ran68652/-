@@ -156,7 +156,7 @@ Servlet 转发至 JSP 页面
 personnel
 ```
 
-已记录的核心数据表包括：
+已记录的数据表包括：
 
 | 数据表 | 主要用途 |
 |---|---|
@@ -164,6 +164,7 @@ personnel
 | employees | 保存员工基本信息 |
 | salaries | 保存员工薪资信息 |
 | leave_requests | 保存员工请假申请信息 |
+| suggestion | 存储员工提交的意见和建议 |
 
 项目通过 JDBC 实现 Java 程序与 MySQL 数据库之间的数据交互，并使用 DAO 类对数据库操作进行封装。
 
