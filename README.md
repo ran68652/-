@@ -61,8 +61,10 @@
 ## 四、项目目录结构
 
 ```text
-Java-Web-HR-Management-System/
-│
+PERSONNEL-MANAGEMENT/
+├── .vscode/
+│   └── settings.json
+├── classes_backup_20261122_214215/
 ├── src/
 │   ├── bean/
 │   │   ├── Employee.java
@@ -70,7 +72,6 @@ Java-Web-HR-Management-System/
 │   │   ├── Salary.java
 │   │   ├── Suggestion.java
 │   │   └── User.java
-│   │
 │   ├── controller/
 │   │   ├── AuthServlet.java
 │   │   ├── EmployeeServlet.java
@@ -78,38 +79,40 @@ Java-Web-HR-Management-System/
 │   │   ├── RegisterServlet.java
 │   │   ├── SalaryServlet.java
 │   │   └── SuggestionServlet.java
-│   │
 │   ├── dao/
 │   │   ├── EmployeeDAO.java
 │   │   ├── LeaveDAO.java
 │   │   ├── SalaryDAO.java
 │   │   ├── SuggestionDAO.java
 │   │   └── UserDAO.java
-│   │
 │   ├── dbutil/
-│   │   └── JDBCUtil.java
-│   │
+│   │   ├── JDBCUtil.java
+│   │   └── personnel.sql
 │   └── filter/
 │       └── AuthFilter.java
-│
-├── WebContent/
-│   ├── images/
-│   ├── WEB-INF/
-│   │   ├── classes/
-│   │   └── lib/
-│   ├── login.jsp
-│   ├── register.jsp
-│   ├── default.jsp
-│   └── ...
-│
-├── database/
-│   └── personnel.sql
-│
-├── screenshots/
-│
-├── docs/
-│
-└── README.md
+└── WebContent/
+    ├── images/
+    ├── WEB-INF/
+    │   ├── classes/
+    │   │   ├── bean/
+    │   │   ├── controller/
+    │   │   ├── dao/
+    │   │   ├── dbutil/
+    │   │   └── filter/
+    │   ├── lib/
+    │   └── web.xml
+    ├── default.jsp
+    ├── employee-form.jsp
+    ├── employee-list.jsp
+    ├── leave-form.jsp
+    ├── leave-list.jsp
+    ├── login.jsp
+    ├── per.xml
+    ├── register.jsp
+    ├── salary-form.jsp
+    ├── salary-list.jsp
+    ├── suggestion-form.jsp
+    └── suggestion-list.jsp
 ```
 
 ## 五、系统架构设计
