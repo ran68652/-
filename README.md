@@ -187,10 +187,10 @@ personnel
 
 ### 3. 配置 Tomcat
 
-1. 配置 JDK 21。
-2. 配置 Apache Tomcat 9。
-3. 将项目的 `WebContent` 目录部署到 Tomcat。
-4. 确认项目 Context Path 配置正确。
+1. 配置 JDK 21
+2. 配置 Apache Tomcat 9
+3. 将项目的 `WebContent` 目录部署到 Tomcat
+4. 确认项目 Context Path 配置正确
 
 ### 4. 启动项目
 
